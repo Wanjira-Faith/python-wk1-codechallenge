@@ -13,6 +13,14 @@ By convention, noon is 12:00 pm, and midnight is 12:00 am.
 
 On 12-hours clock, there is no 0 hour, and time just after midnight is denoted as, for example, 12:15 am. On 24-hour clock, this translates to 0015. 
 
+# Solution 1
+To solve this challenge:
+
+1. Check the period (am/pm) and the hour value.
+2. Adjust the hour accordingly based on the period.
+3. Convert the hour and minute to a four-digit string.
+4. Return the formatted time.
+
 # Running Solution 1
 1. Open a terminal
 2. Navigate to the directory 
@@ -36,6 +44,11 @@ Examples:
 
 (-14, -3, -4) == False
 
+# Solution 2
+To solve this challenge:
+
+1. Count the number of positive integers among the three given.
+2. Return True if the count is exactly 2, otherwise return False.
 
 # Running Solution 2
 1. Open a terminal
@@ -56,6 +69,13 @@ For example, for the word "zodiacs", let's cross out the vowels. We get: "z d cs
 For the word "strength", solve("strength") = 57.
 
 The consonant substrings are: "str" and "ngth" with values "str" = 19 + 20 + 18 = 57 and "ngth" = 14 + 7 + 20 + 8 = 49. The highest is 57.
+
+# Solution 3
+To solve this challenge:
+
+1. Iterate through the characters in the input string.
+2. Accumulate the value of consonant substrings and track the highest value.
+3. Return the highest value.
 
 # Running Solution 3
 1. Open a terminal
