@@ -9,6 +9,7 @@ def two_exact_positive_numbers(a,b,c):
 
    if c > 0:
     positive_count +=1
-    
+
+    return positive_count == 2
  
 
