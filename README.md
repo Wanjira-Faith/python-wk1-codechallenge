@@ -15,7 +15,7 @@ On 12-hours clock, there is no 0 hour, and time just after midnight is denoted a
 
 # Running Solution 1
 1. Open a terminal
-2. Navigate to the directory `cd    python-wk1-codechallenge` 
+2. Navigate to the directory `cd      python-wk1-codechallenge` 
 3. Run solution using `python solution1.py`
 
 # Challenge 2: Two numbers are positive.
@@ -38,7 +38,7 @@ Examples:
 
 # Running Solution 2
 1. Open a terminal
-2. Navigate to the directory `cd    python-wk1-codechallenge` 
+2. Navigate to the directory `cd      python-wk1-codechallenge` 
 3. Run solution using `python solution2.py`
 
 # Challenge 3: Consonant value
@@ -57,7 +57,7 @@ The consonant substrings are: "str" and "ngth" with values "str" = 19 + 20 + 18 
 
 # Running Solution 3
 1. Open a terminal
-2. Navigate to the directory `cd    python-wk1-codechallenge` 
+2. Navigate to the directory `cd       python-wk1-codechallenge` 
 3. Run solution using `python solution3.py`
 
 # Author 
