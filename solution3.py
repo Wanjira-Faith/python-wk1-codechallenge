@@ -10,8 +10,10 @@ def solve(x):
             max_value = max(max_value,current_value)
             current_value = 0
 
-            return max(max_value,current_value)   
+            return max(max_value,current_value)
 
+print(solve('zodiacs'))
+print(solve('strength'))
 
 
  
