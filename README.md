@@ -17,7 +17,7 @@ On 12-hours clock, there is no 0 hour, and time just after midnight is denoted a
 1. Open a terminal
 2. Navigate to the directory 
 `cd python-wk1-codechallenge` 
-3. Run solution using `python solution1.py`
+3. Run solution using `python3 solution1.py`
 
 # Challenge 2: Two numbers are positive.
 Task:
@@ -41,7 +41,7 @@ Examples:
 1. Open a terminal
 2. Navigate to the directory 
 `cd python-wk1-codechallenge` 
-3. Run solution using `python solution2.py`
+3. Run solution using `python3 solution2.py`
 
 # Challenge 3: Consonant value
 Given a lowercase string that has alphabetic characters only and no spaces, return the highest value of consonant substrings. Consonants are any letters of the alphabet except "aeiou".We shall assign the following values: a = 1, b = 2, c = 3, .... z = 26.
@@ -61,7 +61,7 @@ The consonant substrings are: "str" and "ngth" with values "str" = 19 + 20 + 18 
 1. Open a terminal
 2. Navigate to the directory 
 `cd python-wk1-codechallenge` 
-3. Run solution using `python solution3.py`
+3. Run solution using `python3 solution3.py`
 
 # Author 
 Wanjira Faith
