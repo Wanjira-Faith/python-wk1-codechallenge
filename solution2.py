@@ -16,5 +16,6 @@ a = int(input("Enter the first integer:"))
 b = int(input("ENter the second integer:"))
 c = int(input("Enter the third integer:"))
 
- 
+result = two_exact_positive_numbers(a,b,c)
+print(result) 
 
