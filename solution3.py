@@ -12,6 +12,7 @@ def solve(x):
 
             return max(max_value,current_value)
 
+user_input = input("Enter a lowercase string:")
 
 
 
