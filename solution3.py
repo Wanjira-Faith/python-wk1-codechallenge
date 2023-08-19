@@ -12,8 +12,7 @@ def solve(x):
 
             return max(max_value,current_value)
 
-print(solve('zodiacs'))
-print(solve('strength'))
+
 
 
  
