@@ -12,7 +12,10 @@ def solve(x):
 
             return max(max_value,current_value)
 
-user_input = input("Enter a lowercase string:")
+x = input("Enter a lowercase string:")
+
+result = solve(x)
+print(f"The highest value of consonant substrings is: {result}")
 
 
 
