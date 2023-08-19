@@ -12,7 +12,9 @@ def two_exact_positive_numbers(a,b,c):
 
  return positive_count == 2
    
-
+a = int(input("Enter the first integer:"))
+b = int(input("ENter the second integer:"))
+c = int(input("Enter the third integer:"))
 
  
 
