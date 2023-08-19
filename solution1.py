@@ -8,11 +8,12 @@ def convert_to_24_hour(hour,minute,period):
     return time_to_24_hour
 
 
-hour = int(input("Enter the hour: "))
-minute = int(input("Enter the minute(s):"))
-period =(input("Enter 'am' or 'pm':"))
+hour = int(input("Enter the hour(1-12): "))
+minute = int(input("Enter the minute(0-59):"))
+period = input("Enter 'am' or 'pm':")
 
-print(convert_to_24_hour)
+result = convert_to_24_hour(hour,minute,period)
+print(result)
 
 
 
