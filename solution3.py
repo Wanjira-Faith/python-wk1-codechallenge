@@ -6,10 +6,8 @@ def solve(x):
     max_value = 0
     current_value = 0
 
-# Loop through each character in x
+# Loop through each character in x and check if the character is a consonant and calculate it's value based on its position in the alphabet        
     for char in x:
-
-# Check if the character is a consonant and calculate it's value based on its position in the alphabet        
         if char in consonants:
            current_value += ord(char) -ord('a') + 1
         else:
@@ -19,10 +17,10 @@ def solve(x):
 # Return maximum value calculated during the loop
             return max(max_value,current_value)
 
-# Prompt user to enter a lowercase string
+# Prompt user to enter lowercase string
 x = input("Enter a lowercase string: ")
 
-# Call the 'solve' function and print the result
+# Call the function and print the result
 result = solve(x)
 print(f"The highest value of consonant substrings is: {result}")
 
